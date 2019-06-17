@@ -1,0 +1,19 @@
+{
+
+start:s;
+
+nodes{s,q0,q1,F};
+alpha{a,b};
+
+delta{
+
+    s(~,~) goto q0 push $;
+    q0(a,~) goto q0 push a;
+    q0(~,~) goto q1 push ~;
+    q1(b,a) goto q1 push ~;
+    q1(~,$) goto F push ~;
+
+};
+
+
+accept{F};

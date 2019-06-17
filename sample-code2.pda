@@ -1,0 +1,19 @@
+start:q1;
+
+states{q1,q2,q3,q4,q5,q6,q7};
+alpha{a,b,c};
+delta{
+    q1(~,~) goto q2 push $;
+    q2(a,~) goto q2 push a;
+    q2(~,~) goto q3 push ~;
+    q2(~,~) goto q5 push ~;
+    q3(b,a) goto q3 push ~;
+    q3(~,$) goto q4 push ~;
+    q4(c,~) goto q4 push ~;
+    q5(b,~) goto q5 push ~;
+    q5(~,~) goto q6 push ~;
+    q6(c,a) goto q6 push ~;
+    q6(~,$) goto q7 push ~;
+};
+
+accept{q4,q7};

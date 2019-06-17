@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PDARun:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/PDARun_jar</output-path>
+    <root id="archive" name="PDARun.jar">
+      <element id="module-output" name="PDARun" />
+    </root>
+  </artifact>
+</component>
