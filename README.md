@@ -1,7 +1,7 @@
 # PDARun
 Simple interpreter for PDA programs (Language for designing and testing pushdown automatas)
 
-PDARun lets you build pushdown automatas (also supposrts DFAs and NFAs) with simple and flexible code. Once the interpreter
+PDARun lets you build pushdown automatas (also supports DFAs and NFAs) with simple and flexible code. Once the interpreter
 has parsed your code, it will ask you for a string to test and run it through the automata you've built. You can
 also type *inputs n* (n = positive integer) and the interpreter will show you all the strings that are accepted and rejected
 that have a length <= n over the alphabet you declared in your program.
