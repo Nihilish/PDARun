@@ -6,7 +6,7 @@ has parsed your code, it will ask you for a string to test and run it through th
 also type *inputs n* (n = positive integer) and the interpreter will show you all the strings that are accepted and rejected
 that have a length <= n over the alphabet you declared in your program.
 
-The syntax of the program should be as followed:
+The syntax of the program should be as follows:
 
     //Name of the starting state
     start:s;
