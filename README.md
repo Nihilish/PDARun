@@ -22,7 +22,8 @@ The syntax of the program should be as followed:
 
     //Transition function
     //The following means if the machine is in state s, on input 'a' with a top
-    stack symbol of ~ (~ is the notation for epsilon, or the empty string), go to state q1 and push $ onto the stack.
+    //stack symbol of ~ (~ is the notation for epsilon, or the empty string), go to 
+    //state q1 and push $ onto the stack.
     delta{
 
     s(a,~) goto q1 push $;
